@@ -13,6 +13,7 @@ namespace CommandAPI
 {
     public class Startup
     {
+        // configuration object
         public IConfiguration Configuration { get; }
 
         public Startup(IConfiguration configuration)
